@@ -1,0 +1,13 @@
+server:
+  port: 8082
+spring:
+  datasource:
+    username: root
+    password: Subha1234@
+    url: jdbc:mysql://localhost:3306/sbms
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+ 
