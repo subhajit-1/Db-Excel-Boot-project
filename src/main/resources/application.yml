@@ -1,9 +1,9 @@
 server:
-  port: 8082
+  port: 8080
 spring:
   datasource:
     username: root
-    password: Subha1234@
+    password: root
     url: jdbc:mysql://localhost:3306/sbms
     driver-class-name: com.mysql.jdbc.Driver
   jpa:
